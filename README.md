@@ -57,6 +57,17 @@ systemctl enable zabbix-server zabbix-agent apache2
    ![83337abb4562a51e9f922ecce29f5aab.png](./img/83337abb4562a51e9f922ecce29f5aab.png)
 3. Приложите в файл README.md скриншот лога zabbix agent, где видно, что он работает с сервером
    ![faebe9e1fa36b6b0ebc9ed97ca615c09.png](./img/faebe9e1fa36b6b0ebc9ed97ca615c09.png)
+
+#### UPDATE
+
+на машине с Zabbix сервером также установлен и запущен Zabbix-agent:
+
+![d92392cec36729b73ade225b60154da6.png](./img/d92392cec36729b73ade225b60154da6.png)
+![71a1768584de5c76357f57255d82c6cf.png](./img/71a1768584de5c76357f57255d82c6cf.png)
+
+И в админке видно, что сервер получает данные от агента установленного на него же (127.0.0.1) по порту 10050. Это удовлетворяет условиям задания "_Установите Zabbix Agent на 2 вирт.машины, одной из них может быть ваш Zabbix Server._":
+![92010045a9eb3c1369fdbb9dcbf62e6e.png](./img/92010045a9eb3c1369fdbb9dcbf62e6e.png)
+   
 5. Приложите в файл README.md скриншот раздела Monitoring > Latest data для обоих хостов, где видны поступающие от агентов данные.
    ![db30ed12a90287f43954cd4314e5d219.png](./img/db30ed12a90287f43954cd4314e5d219.png)
 7. Приложите в файл README.md текст использованных команд в GitHub
