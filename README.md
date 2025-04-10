@@ -63,6 +63,7 @@ systemctl enable zabbix-server zabbix-agent apache2
 на машине с Zabbix сервером также установлен и запущен Zabbix-agent:
 
 ![d92392cec36729b73ade225b60154da6.png](./img/d92392cec36729b73ade225b60154da6.png)
+
 И в админке видно, что сервер получает данные от агента установленного на него же (127.0.0.1) по порту 10050. Это удовлетворяет условиям задания "_Установите Zabbix Agent на 2 вирт.машины, одной из них может быть ваш Zabbix Server._":
 ![92010045a9eb3c1369fdbb9dcbf62e6e.png](./img/92010045a9eb3c1369fdbb9dcbf62e6e.png)
    
